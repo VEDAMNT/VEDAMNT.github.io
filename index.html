@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voice Cloning AI - Clone any voice and generate speech in your custom voice with advanced features like cross-lingual voice cloning and voice customization.">
+    <meta name="keywords" content="voice cloning, speech synthesis, AI, text-to-speech, custom voice">
+    <meta name="author" content="Your Name">
+
+    <title>Galileo Design</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Preload fonts for better performance -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" as="style" crossorigin="anonymous">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap">
+    
+    <!-- Defer non-essential scripts -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries" defer></script>
+</head>
+<body class="bg-[#101a23] text-white font-sans min-h-screen flex flex-col">
+    <div class="relative flex flex-col min-h-screen overflow-x-hidden">
+        <header class="p-4 bg-[#101a23] flex justify-between items-center border-b border-[#2c3e50]">
+            <div class="logo-container flex items-center space-x-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10">
+                    <path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
+                </svg>
+                <h1 class="text-2xl font-bold">Voice Cloning AI</h1>
+            </div>
+            <nav class="flex space-x-4">
+                <a href="#" class="hover:text-[#2094f3] transition-colors">Home</a>
+                <a href="#" class="hover:text-[#2094f3] transition-colors">About</a>
+                <a href="#" class="hover:text-[#2094f3] transition-colors">Instructions</a>
+                <a href="#" class="hover:text-[#2094f3] transition-colors">Contact</a>
+            </nav>
+            <button class="bg-[#2094f3] text-white px-4 py-2 rounded-lg hover:bg-[#167ac6] transition-colors">
+                Dashboard
+            </button>
+        </header>
+
+        <main class="flex-grow px-4 py-5">
+    <section class="bg-cover bg-center bg-no-repeat rounded-xl p-6"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url('https://cdn.usegalileo.ai/sdxl10/4abe0940-a3bc-4d95-9cd2-cd2fc05b666e.png');"
+        aria-label="Voice Cloning AI Banner">
+        <h1 class="text-3xl font-extrabold leading-tight text-center">
+            Clone any voice and generate speech in your custom voice
+        </h1>
+        <button class="mt-4 bg-[#2094f3] text-white px-6 py-2 rounded-lg hover:bg-[#167ac6] transition-colors">
+            <a href="guide.html" class="text-white">Try now</a>
+        </button>
+    </section>
+            <section class="mt-8">
+                <h2 class="text-xl font-bold mb-4">How it works</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="flex flex-col gap-3">
+                        <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                            style="background-image: url('https://cdn.usegalileo.ai/stability/958267f0-f327-4994-bb9e-6dead86a1abf.png');"
+                            aria-label="Record a voice sample"></div>
+                        <p class="text-base font-medium">Record a voice sample</p>
+                        <p class="text-[#90b0cb] text-sm">Record a short audio clip. This will be used to create a custom voice model.</p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                            style="background-image: url('https://cdn.usegalileo.ai/stability/1f956f71-a1dd-4d0d-b44f-11d620d3fe28.png');"
+                            aria-label="Clone your voice"></div>
+                        <p class="text-base font-medium">Clone your voice</p>
+                        <p class="text-[#90b0cb] text-sm">Use your voice to clone the voice of a public figure or a different gender.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="text-xl font-bold mb-4">Advanced features</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="flex flex-col gap-3">
+                        <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                            style="background-image: url('https://cdn.usegalileo.ai/sdxl10/9e6c981c-aaea-4a79-8b11-bb757fee160a.png');"
+                            aria-label="Customize your voice"></div>
+                        <p class="text-base font-medium">Customize your voice</p>
+                        <p class="text-[#90b0cb] text-sm">Adjust your voice's age, accent, pitch, and more.</p>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                            style="background-image: url('https://cdn.usegalileo.ai/sdxl10/8353c089-f742-4461-a589-70b0db37c0a0.png');"
+                            aria-label="Cross-lingual voice cloning"></div>
+                        <p class="text-base font-medium">Cross-lingual voice cloning</p>
+                        <p class="text-[#90b0cb] text-sm">Generate speech in a different language with your custom voice.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="text-xl font-bold mb-4">Resources</h2>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a class="text-[#90b0cb] text-base font-normal hover:underline" href="#" target="_blank" rel="noopener noreferrer">
+                        GitHub repository
+                    </a>
+                    <a class="text-[#90b0cb] text-base font-normal hover:underline" href="#" target="_blank" rel="noopener noreferrer">
+                        DeepMind paper
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
